@@ -97,7 +97,14 @@ body {
   justify-content: centre;
   overflow: hidden;
 }
-
+.hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
 
 .hero-overlay {
   position: absolute;
@@ -210,8 +217,7 @@ body {
   }
 
   .hero {
-    height: 70vh;
-    min-height: 420px;
+    min-height: 70vh;
     justify-content: flex-start;
   }
 
